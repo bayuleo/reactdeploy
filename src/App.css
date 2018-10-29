@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -29,4 +29,104 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.main-div{
+  position: relative;
+  padding: 0 100px 0 100px;
+}
+
+.header-div{
+  position: relative;
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.logo{
+  position: absolute;
+}
+
+li{
+  display: inline-block;
+  /* float: right; */
+  margin: 0 0 0 50px;
+  padding-left: 0
+}
+
+body{
+  background-color: black;
+}
+
+.body-content{
+  position: relative;
+  /* text-align: center; */
+}
+
+.description{
+  position: absolute;
+  top: 170px;
+  right: 10px;
+  left: 100px;
+  font-size: 20px
+}
+
+img{
+  width: 400px;
+  height: 400px;
+  outline: solid 10px white;
+}
+
+p{
+  padding-top: 50px;
+  text-align: left;
+}
+
+.menu {
+  position: absolute;
+  right: 0px;
+  margin-top: 25px;
+}
+
+.image-desc{
+  position: absolute;
+  right: -60px;
+  top: 300px;
+  -moz-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  color: white;
+}
+
+h1{
+  color: white;
+}
+
+.btn-outline-secondary {
+  color: white !important;
+  background-color: blue !important;
+  background-image: none;
+  border-color: #6c757d;
+}
+
+.secondname{
+  padding-left: 50px;
+}
+
+.image-content{
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+hr{
+  color: white;
+  height: 5px;
+  background-color: grey;
+  margin: 10px 350px 30px 40px;
+}
+
+a{
+  color: white;
 }
