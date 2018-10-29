@@ -1,1 +1,53 @@
 /* #css ku */
+
+.background{
+  position: relative;
+  padding: 0 100px 0 100px;
+}
+
+.header{
+  /* position: fixed; */
+  /* display: inline; */
+  /* z-index: 1; */
+  background: rgb(247, 246, 246);
+}
+
+.header-background{
+  position: relative;
+  /* background: pink; */
+}
+
+.header-left{
+  left: 0;
+}
+
+.header-right{
+  position: absolute;
+  right: 100px;
+  top: 15px;
+  color: red;
+  /* background: rgb(121, 22, 22); */
+}
+
+.content{
+  position: relative;
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+.content-left{
+  /* background: blue; */
+}
+
+.content-right{
+  /* background: red; */
+}
+
+.content-center{
+  /* background: yellow; */
+  padding: 0 0 0 -10px !important;
+}
+
+.footer-content{
+  background: rgb(247, 246, 246);
+}
