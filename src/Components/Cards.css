@@ -24,6 +24,10 @@
     margin: 0 0 0 20px;
 }
 
+.card-text{
+    text-align: justify;
+}
+
 hr{
     margin: 0 500px 0 500px;
 }
