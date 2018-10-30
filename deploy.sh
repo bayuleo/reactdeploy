@@ -5,4 +5,3 @@ cd /home/ubuntu/react/reactdeploy &&
 git pull &&
 npm install &&
 npm run build
-
